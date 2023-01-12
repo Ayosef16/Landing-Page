@@ -114,3 +114,34 @@ li a,
     padding: 20px 300px;
 }
 
+.third-section{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 400px;
+    flex-direction: column;
+}
+
+.quote{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.quote-autor{
+    display: flex;
+    flex-shrink: 0;
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.fourth-section{
+    background-color: #3882f6;
+    display: flex;
+    gap: 100px;
+    margin: 80px 300px;
+    padding: 40px 80px;
+    justify-content: space-between;
+}
