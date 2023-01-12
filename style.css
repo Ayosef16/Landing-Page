@@ -16,6 +16,7 @@ a{
 
 .header{
     justify-content: space-between;
+    padding: 20px 0px;
 }
 
 .links{
@@ -48,6 +49,7 @@ li a,
     color: #f9faf8;
     display: flex;
     flex-wrap: wrap;
+    max-width: 400px;
 }
 
 .image{
@@ -61,12 +63,14 @@ li a,
 
 .hero{
     justify-content: space-between;
+    padding: 100px 0px;
 }
 
 .secondary-text{
     display: flex;
     flex-wrap: wrap;
     width: 450px;
+    padding-bottom: 10px;
 }
 
 .information-header{
@@ -76,20 +80,24 @@ li a,
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+    padding: 40px 0px;
 }
 
 .img{
     border: 4px solid #3882f6;
-    height: 130px;
-    width: 120px;
+    height: 150px;
+    width: 140px;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .information-container{
     display: flex;
-    gap: 20px;
     justify-content: center;
     align-items: center;
+    padding-bottom: 100px;
 }
 
 .text{
@@ -111,13 +119,14 @@ li a,
 
 .header,
 .hero{
-    padding: 20px 300px;
+    padding-right: 300px;
+    padding-left: 300px;
 }
 
 .third-section{
     background-color: #e5e7eb;
     display: flex;
-    padding: 100px 400px;
+    padding: 150px 400px;
     flex-direction: column;
 }
 
@@ -162,7 +171,7 @@ button{
     color: #f9faf8;
     font-size: 18px;
     font-weight: 900;
-    padding: 5px 15px;
+    padding: 5px 30px;
     border-radius: 10px;
 }
 
@@ -172,4 +181,12 @@ button{
 
 .s4-button{
     border: 3px solid #f9faf8;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    padding: 40px 0px;
 }
