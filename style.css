@@ -79,7 +79,10 @@ li a,
 }
 
 .img{
-    border: 3px solid #3882f6;
+    border: 4px solid #3882f6;
+    height: 130px;
+    width: 120px;
+    border-radius: 10px;
 }
 
 .information-container{
@@ -100,9 +103,14 @@ li a,
 .img3,
 .img4{
     max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .header,
 .hero{
     padding: 20px 300px;
 }
+
