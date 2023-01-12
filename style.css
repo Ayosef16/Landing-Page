@@ -1,5 +1,7 @@
 body{
     font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
 }
 
 ul{
@@ -44,6 +46,8 @@ li a,
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .image{
@@ -63,7 +67,6 @@ li a,
     display: flex;
     flex-wrap: wrap;
     width: 450px;
-    text-align: center;
 }
 
 .information-header{
@@ -73,4 +76,33 @@ li a,
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+}
+
+.img{
+    border: 3px solid #3882f6;
+}
+
+.information-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.img1,
+.img2,
+.img3,
+.img4{
+    max-width: 200px;
+}
+
+.header,
+.hero{
+    padding: 20px 300px;
 }
