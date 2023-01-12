@@ -117,7 +117,6 @@ li a,
 .third-section{
     background-color: #e5e7eb;
     display: flex;
-    justify-content: space-between;
     padding: 100px 400px;
     flex-direction: column;
 }
@@ -141,7 +140,36 @@ li a,
     background-color: #3882f6;
     display: flex;
     gap: 100px;
-    margin: 80px 300px;
-    padding: 40px 80px;
+    margin: 100px 400px;
+    padding: 60px 120px;
     justify-content: space-between;
+    border-radius: 10px;
+}
+
+.action{
+    font-size: 24px;
+    color:#f9faf8;
+    font-weight: 900;
+}
+
+.action-text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+.s1-button{
+    border: #1f2937;
+}
+
+.s4-button{
+    border: 3px solid #f9faf8;
 }
